@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <!-- <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo" style="font-size: 25px;">
+                 Wingit
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li><a href="#" class="nav__link">Home</a></li>
+
+                 <li><a href="./otherPages/stays/index.html" class="nav__link">Stays</a></li>
+
+                 
+
+                 <!--=============== DROPDOWN 2 ===============-->
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             Flights
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             Cars
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             Direct
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                            Trips
+                          </a>
+                       </li>
+                    </ul>
+                 </li>
+
+                 <!-- <li class="dropdown__item">
+                    <div class="nav__link">
+                       Sessions <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Offline
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> Online
+                          </a>
+                       </li>
+                    </ul>
+                 </li> -->
+
+                 <!-- <li class="dropdown__item">
+                    <div class="nav__link">
+                       <a href="./Events/index.html" style="color: black;">Explore</a> 
+                    </div>
+                 </li> -->
+
+                 <li><a href="#" class="nav__link">About us</a></li>
+              </ul>
+           </div>
+        </nav>
+     </header>
+
+     <!-- end of header -->
+
+     <div class="space"></div>
+    
+    
+    <main id="home">
+        <div class="header__container">
+          <div class="header__content">
+            <p>ELEVATE YOUR TRAVEL JOURNEY</p>
+            <h1>Experience The Magic Of Flight!</h1>
+            <div class="header__btns">
+              <button class="btn">Book A Trip Now</button>
+              <!-- <a href="#">
+                <span><i class="ri-play-circle-fill"></i></span>
+              </a> -->
+            </div>
+          </div>
+          <div class="header__image">
+            <img src="IMGs/header.png" alt="header" />
+          </div>
+        </div>
+    </main>
+
+
+    <section class="section__container booking__container">
+        <form action="/" class="booking__form">
+          <div class="input__group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+              <label for="check-in">CHECK-IN</label>
+              <input type="text" placeholder="Check In" />
+            </div>
+          </div>
+          <div class="input__group">
+            <span><i class="ri-calendar-2-fill"></i></span>
+            <div>
+              <label for="check-out">CHECK-OUT</label>
+              <input type="text" placeholder="Check Out" />
+            </div>
+          </div>
+          <div class="input__group">
+            <span><i class="ri-user-fill"></i></span>
+            <div>
+              <label for="guest">GUEST</label>
+              <input type="text" placeholder="Guest" />
+            </div>
+          </div>
+          <div class="input__group input__btn">
+            <button class="btn">CHECH OUT</button>
+          </div>
+        </form>
+      </section>
+
+
+      <section class="section__container journey__container" id="tour">
+         <h2 class="section__header">Journey To The Sky Made Simple!</h2>
+         <p class="section__description">
+           Effortless Planning for Your Next Adventure
+         </p>
+         <div class="journey__grid">
+           <div class="journey__card">
+             <div class="journey__card__bg">
+               <span><i class="ri-bookmark-3-line"></i></span>
+               <h4>Seamless Booking Process</h4>
+             </div>
+             <div class="journey__card__content">
+               <span><i class="ri-bookmark-3-line"></i></span>
+               <h4>Easy Reservations, One Click Away</h4>
+               <p>
+                 From flights and accommodations to activities and transfers,
+                 everything you need is available at your fingertips, making travel
+                 planning effortless.
+               </p>
+             </div>
+           </div>
+           <div class="journey__card">
+             <div class="journey__card__bg">
+               <span><i class="ri-landscape-fill"></i></span>
+               <h4>Tailored Itineraries</h4>
+             </div>
+             <div class="journey__card__content">
+               <span><i class="ri-landscape-fill"></i></span>
+               <h4>Customized Plans Just for You</h4>
+               <p>
+                 Enjoy personalized travel plans designed to match your preferences
+                 and interests. Whether you seek adventure or cultural immersion,
+                 our tailored itineraries ensure your journey is uniquely yours.
+               </p>
+             </div>
+           </div>
+           <div class="journey__card">
+             <div class="journey__card__bg">
+               <span><i class="ri-map-2-line"></i></span>
+               <h4>Expert Local Insights</h4>
+             </div>
+             <div class="journey__card__content">
+               <span><i class="ri-map-2-line"></i></span>
+               <h4>Insider Tips and Recommendations</h4>
+               <p>
+                 We provide curated recommendations for dining, sightseeing, and
+                 hidden gems, so you can experience each destination like a local.
+               </p>
+             </div>
+           </div>
+         </div>
+       </section>
+
+
+
+       <section class="popular" id="destination">
+         <div class="container">
+ 
+           <p class="section-subtitle">Uncover place</p>
+ 
+           <h2 class="h2 section-title">Popular destination</h2>
+ 
+           <p class="section-text">
+            A popular destination combines rich culture and breathtaking scenery, drawing travelers eager for adventure. Vibrant markets and delicious cuisine create unforgettable experiences.
+           </p>
+ 
+           <ul class="popular-list">
+ 
+             <li>
+               <div class="popular-card">
+ 
+                 <figure class="card-img">
+                   <img src="./IMGs/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <div class="card-rating">
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                   </div>
+ 
+                   <p class="card-subtitle">
+                     <a href="#">Italy</a>
+                   </p>
+ 
+                   <h3 class="h3 card-title">
+                     <a href="#">San miguel</a>
+                   </h3>
+ 
+                   <p class="card-text">
+                     San Miguel is a small country with nice beaches and friendly people.
+                   </p>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+ 
+             <li>
+               <div class="popular-card">
+ 
+                 <figure class="card-img">
+                   <img src="./IMGs/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <div class="card-rating">
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                   </div>
+ 
+                   <p class="card-subtitle">
+                     <a href="#">Dubai</a>
+                   </p>
+ 
+                   <h3 class="h3 card-title">
+                     <a href="#">Burj khalifa</a>
+                   </h3>
+ 
+                   <p class="card-text">
+                     Burj Khalifa is a very tall building in Dubai. Visitors enjoy the amazing views from the top.
+                   </p>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+ 
+             <li>
+               <div class="popular-card">
+ 
+                 <figure class="card-img">
+                   <img src="./IMGs/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <div class="card-rating">
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                     <ion-icon name="star"></ion-icon>
+                   </div>
+ 
+                   <p class="card-subtitle">
+                     <a href="#">Japan</a>
+                   </p>
+ 
+                   <h3 class="h3 card-title">
+                     <a href="#">Kyoto temple</a>
+                   </h3>
+ 
+                   <p class="card-text">
+                     Kiyomizu-dera is a famous temple in Kyoto with great city views.
+                   </p>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+ 
+           </ul>
+ 
+           <button class="btn btn-primary">More destintion</button>
+ 
+         </div>
+       </section>
+
+
+       <section class="package" id="package">
+         <div class="container">
+ 
+           <p class="section-subtitle">Popular Packeges</p>
+ 
+           <h2 class="h2 section-title">Checkout Our Packeges</h2>
+ 
+           <p class="section-text">
+            Explore our travel packages designed for every traveler, featuring budget-friendly options and luxurious getaways. Enjoy seamless booking and exclusive deals for unforgettable experiences.
+           </p>
+ 
+           <ul class="package-list">
+ 
+             <li>
+               <div class="package-card">
+ 
+                 <figure class="card-banner">
+                   <img src="./IMGs/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <h3 class="h3 card-title">Experience The Great Holiday On Beach</h3>
+ 
+                   <p class="card-text">
+                     Experience the perfect beach holiday with sun, sand, and sea. Enjoy relaxing on the shore and breathtaking sunsets for an unforgettable escape.
+                   </p>
+ 
+                   <ul class="card-meta-list">
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="time"></ion-icon>
+ 
+                         <p class="text">7D/6N</p>
+                       </div>
+                     </li>
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="people"></ion-icon>
+ 
+                         <p class="text">pax: 10</p>
+                       </div>
+                     </li>
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="location"></ion-icon>
+ 
+                         <p class="text">Malaysia</p>
+                       </div>
+                     </li>
+ 
+                   </ul>
+ 
+                 </div>
+ 
+                 <div class="card-price">
+ 
+                   <div class="wrapper">
+ 
+                     <p class="reviews">(25 reviews)</p>
+ 
+                     <div class="card-rating">
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                     </div>
+ 
+                   </div>
+ 
+                   <p class="price">
+                     $750
+                     <span>/ per person</span>
+                   </p>
+ 
+                   <button class="btn btn-secondary" style="background-color: hsl(194, 56%, 58%); border: none;">Book Now</button>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+ 
+             <li>
+               <div class="package-card">
+ 
+                 <figure class="card-banner">
+                   <img src="./IMGs/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <h3 class="h3 card-title">Summer Holiday To The Oxolotan River</h3>
+ 
+                   <p class="card-text">
+                     Enjoy a summer holiday at the Oxolotan River with serene waters and lush scenery. Relax and explore nature for an unforgettable getaway.
+                   </p>
+ 
+                   <ul class="card-meta-list">
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="time"></ion-icon>
+ 
+                         <p class="text">7D/6N</p>
+                       </div>
+                     </li>
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="people"></ion-icon>
+ 
+                         <p class="text">pax: 10</p>
+                       </div>
+                     </li>
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="location"></ion-icon>
+ 
+                         <p class="text">Malaysia</p>
+                       </div>
+                     </li>
+ 
+                   </ul>
+ 
+                 </div>
+ 
+                 <div class="card-price">
+ 
+                   <div class="wrapper">
+ 
+                     <p class="reviews">(20 reviews)</p>
+ 
+                     <div class="card-rating">
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                     </div>
+ 
+                   </div>
+ 
+                   <p class="price">
+                     $520
+                     <span>/ per person</span>
+                   </p>
+ 
+                   <button class="btn btn-secondary" style="background-color: hsl(194, 56%, 58%); border: none;">Book Now</button>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+ 
+             <li>
+               <div class="package-card">
+ 
+                 <figure class="card-banner">
+                   <img src="IMGs/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <h3 class="h3 card-title">Santorini Island's Weekend Vacation</h3>
+ 
+                   <p class="card-text">
+                     Enjoy a weekend in Santorini with stunning sunsets and beautiful beaches. Explore charming villages and savor local cuisine.
+                   </p>
+ 
+                   <ul class="card-meta-list">
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="time"></ion-icon>
+ 
+                         <p class="text">7D/6N</p>
+                       </div>
+                     </li>
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="people"></ion-icon>
+ 
+                         <p class="text">pax: 10</p>
+                       </div>
+                     </li>
+ 
+                     <li class="card-meta-item">
+                       <div class="meta-box">
+                         <ion-icon name="location"></ion-icon>
+ 
+                         <p class="text">Malaysia</p>
+                       </div>
+                     </li>
+ 
+                   </ul>
+ 
+                 </div>
+ 
+                 <div class="card-price">
+ 
+                   <div class="wrapper">
+ 
+                     <p class="reviews">(40 reviews)</p>
+ 
+                     <div class="card-rating">
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                       <ion-icon name="star"></ion-icon>
+                     </div>
+ 
+                   </div>
+ 
+                   <p class="price">
+                     $660
+                     <span>/ per person</span>
+                   </p>
+ 
+                   <button class="btn btn-secondary" style="background-color: hsl(194, 56%, 58%); border: none;">Book Now</button>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+ 
+           </ul>
+ 
+           <button class="btn btn-primary">View All Packages</button>
+ 
+         </div>
+       </section>
+
+       <h1 class="costumors-h1">Our costumors</h1>
+
+       <section class="con">
+         <div class="card__container swiper">
+            <div class="card__content">
+               <div class="swiper-wrapper">
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-1.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Kell Dawx</h3>
+                        <p class="card__description">
+                           Booking my flights through WingIt was a breeze! The user-friendly site helped me find the best deals in minutes. I highly recommend it for affordable travel!
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-2.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Lotw Fox</h3>
+                        <p class="card__description">
+                           I love using WingIt for my trips! They offer great exclusive deals that save me money on flights. The variety of options makes budgeting for travel easy.
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-3.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Sara Mit</h3>
+                        <p class="card__description">
+                           WingIt’s user interface is excellent! I quickly searched and compared flights, making my travel planning efficient. I found exactly what I needed in no time!
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+      
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-4.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Jenny Wert</h3>
+                        <p class="card__description">
+                           WingIt’s customer service impressed me! They helped me change my itinerary quickly and made the process seamless. I felt valued and appreciated their support
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+
+                  <article class="card__article swiper-slide">
+                     <div class="card__image">
+                        <img src="assets/img/avatar-5.png" alt="image" class="card__img">
+                        <div class="card__shadow"></div>
+                     </div>
+      
+                     <div class="card__data">
+                        <h3 class="card__name">Lexa Kin</h3>
+                        <p class="card__description">
+                           I appreciate the variety of travel packages on WingIt. Whether it's a weekend trip or a longer vacation, there’s always something that fits my needs
+                        </p>
+      
+                        <a href="#" class="card__button">View More</a>
+                     </div>
+                  </article>
+               </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next">
+               <i class="ri-arrow-right-s-line"></i>
+            </div>
+            
+            <div class="swiper-button-prev">
+               <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+
+      <section class="section__container discover__container" style="margin-bottom: 150px;">
+         <h2 class="section__header" style="margin: auto;">Discover The World From Above</h2>
+         <p class="section__description">
+           Experience Breathtaking Views and Unique Perspectives
+         </p>
+         <div class="discover__grid">
+           <div class="discover__card">
+             <span><i class="ri-camera-lens-line"></i></span>
+             <h4>Aerial Cityscapes</h4>
+             <p>
+               Witness the architectural marvels and bustling streets from
+               bird's-eye view, offering a unique perspective.
+             </p>
+           </div>
+           <div class="discover__card">
+             <span><i class="ri-ship-line"></i></span>
+             <h4>Coastal Wonders</h4>
+             <p>
+               Fly over pristine coastlines and turquoise waters, revealing hidden
+               coves and vibrant coral reefs.
+             </p>
+           </div>
+           <div class="discover__card">
+             <span><i class="ri-landscape-line"></i></span>
+             <h4>Historic Landmarks</h4>
+             <p>
+               Observe the grandeur of ancient castles and other significant sites
+               in a way that ground tours can't offer.
+             </p>
+           </div>
+         </div>
+       </section>
+
+
+      <!--the feedback!!!!!!!!!!!-->
+
+      <!--=======================-->
+
+      <section class="flights" style="margin: 50px 0; padding: 50px;">
+         <h2 style="font-size: 24px; margin-bottom: 10px;">Search Cheap Flights by Destination</h2>
+         <p style="font-size: 16px; margin-bottom: 20px;">Save money on airfare by searching for cheap flight tickets. Whether you're looking for a last minute flight or a cheap plane ticket for a later date, you can find the best deals here.</p>
+         
+         <div class="containe">
+         
+             <!-- Las Vegas Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('lasvegas')">
+                     <span>Las Vegas Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="lasvegas" class="flight-optio">
+                     <p>Flight Los Angeles - Las Vegas (LAX - LAS) - $40+</p>
+                     <p>Flight San Francisco - Las Vegas (SFO - LAS) - $45+</p>
+                     <p>Flight Dallas - Las Vegas (DFW - LAS) - $50+</p>
+                 </div>
+             </div>
+         
+             <!-- Los Angeles Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('losangeles')">
+                     <span>Los Angeles Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="losangeles" class="flight-optio">
+                     <p>Flight New York - Los Angeles (NYC - LAX) - $75+</p>
+                     <p>Flight Chicago - Los Angeles (ORD - LAX) - $80+</p>
+                     <p>Flight Miami - Los Angeles (MIA - LAX) - $85+</p>
+                 </div>
+             </div>
+         
+             <!-- Orlando Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('orlando')">
+                     <span>Orlando Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="orlando" class="flight-optio">
+                     <p>Flight Dallas - Orlando (DFW - MCO) - $70+</p>
+                     <p>Flight New York - Orlando (NYC - MCO) - $65+</p>
+                     <p>Flight Chicago - Orlando (ORD - MCO) - $72+</p>
+                 </div>
+             </div>
+         
+             <!-- Cancun Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('cancun')">
+                     <span>Cancun Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="cancun" class="flight-optio">
+                     <p>Flight Miami - Cancun (MIA - CUN) - $110+</p>
+                     <p>Flight New York - Cancun (NYC - CUN) - $120+</p>
+                     <p>Flight Dallas - Cancun (DFW - CUN) - $115+</p>
+                 </div>
+             </div>
+         
+             <!-- Tokyo Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('tokyo')">
+                     <span>Tokyo Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="tokyo" class="flight-optio">
+                     <p>Flight Los Angeles - Tokyo (LAX - NRT) - $550+</p>
+                     <p>Flight New York - Tokyo (NYC - NRT) - $600+</p>
+                     <p>Flight San Francisco - Tokyo (SFO - NRT) - $580+</p>
+                 </div>
+             </div>
+         
+             <!-- New York Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('newyork')">
+                     <span>New York Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="newyork" class="flight-optio">
+                     <p>Flight Miami - New York (MIA - NYC) - $55+</p>
+                     <p>Flight Boston - New York (BOS - NYC) - $60+</p>
+                     <p>Flight Atlanta - New York (ATL - NYC) - $75+</p>
+                 </div>
+             </div>
+         
+             <!-- Chicago Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('chicago')">
+                     <span>Chicago Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="chicago" class="flight-optio">
+                     <p>Flight Miami - Chicago (MIA - ORD) - $120+</p>
+                     <p>Flight Los Angeles - Chicago (LAX - ORD) - $130+</p>
+                     <p>Flight Dallas - Chicago (DFW - ORD) - $115+</p>
+                 </div>
+             </div>
+         
+             <!-- Phoenix Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('phoenix')">
+                     <span>Phoenix Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="phoenix" class="flight-optio">
+                     <p>Flight Dallas - Phoenix (DFW - PHX) - $60+</p>
+                     <p>Flight Los Angeles - Phoenix (LAX - PHX) - $55+</p>
+                     <p>Flight Denver - Phoenix (DEN - PHX) - $58+</p>
+                 </div>
+             </div>
+         
+             <!-- London Flights -->
+             <div class="destinatio">
+                 <div class="destination-heade" onclick="toggleFlights('london')">
+                     <span>London Flights</span>
+                     <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+                 </div>
+                 <div id="london" class="flight-optio">
+                     <p>Flight New York - London (NYC - LHR) - $450+</p>
+                     <p>Flight Miami - London (MIA - LHR) - $470+</p>
+                     <p>Flight Boston - London (BOS - LHR) - $460+</p>
+                 </div>
+             </div>
+         
+             <!-- Additional Destinations -->
+             <!-- Repeat similar blocks for other cities like Paris, Manila, Denver, etc. -->
+             
+             <!-- London Flights -->
+             <div class="destinatio">
+               <div class="destination-heade" onclick="toggleFlights('Saudi-Arabia')">
+                   <span>Saudi Arabia Flights</span>
+                   <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+               </div>
+               <div id="Saudi-Arabia" class="flight-optio">
+                   <p>Flight New York - London (NYC - LHR) - $450+</p>
+                   <p>Flight Miami - London (MIA - LHR) - $470+</p>
+                   <p>Flight Boston - London (BOS - LHR) - $460+</p>
+               </div>
+           </div>
+       
+           <!-- London Flights -->
+           <div class="destinatio">
+             <div class="destination-heade" onclick="toggleFlights('Egypt')">
+                 <span>Egypt Flights</span>
+                 <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+             </div>
+             <div id="Egypt" class="flight-optio">
+                 <p>Flight New York - London (NYC - LHR) - $450+</p>
+                 <p>Flight Miami - London (MIA - LHR) - $470+</p>
+                 <p>Flight Boston - London (BOS - LHR) - $460+</p>
+             </div>
+         </div>
+       
+         <!-- London Flights -->
+         <div class="destinatio">
+           <div class="destination-heade" onclick="toggleFlights('Emirates')">
+               <span>Emirates Flights</span>
+               <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+           </div>
+           <div id="Emirates" class="flight-optio">
+               <p>Flight New York - London (NYC - LHR) - $450+</p>
+               <p>Flight Miami - London (MIA - LHR) - $470+</p>
+               <p>Flight Boston - London (BOS - LHR) - $460+</p>
+           </div>
+       </div>
+       
+       <!-- London Flights -->
+       <div class="destinatio">
+         <div class="destination-heade" onclick="toggleFlights('Qatar')">
+             <span>Qatar Flights</span>
+             <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+         </div>
+         <div id="Qatar" class="flight-optio">
+             <p>Flight New York - London (NYC - LHR) - $450+</p>
+             <p>Flight Miami - London (MIA - LHR) - $470+</p>
+             <p>Flight Boston - London (BOS - LHR) - $460+</p>
+         </div>
+       </div>
+       
+       <!-- London Flights -->
+       <div class="destinatio">
+         <div class="destination-heade" onclick="toggleFlights('South-Korea')">
+             <span>South Korea Flights</span>
+             <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+         </div>
+         <div id="South-Korea" class="flight-optio">
+             <p>Flight New York - London (NYC - LHR) - $450+</p>
+             <p>Flight Miami - London (MIA - LHR) - $470+</p>
+             <p>Flight Boston - London (BOS - LHR) - $460+</p>
+         </div>
+       </div>
+       
+       <!-- London Flights -->
+       <div class="destinatio">
+         <div class="destination-heade" onclick="toggleFlights('china')">
+             <span>china Flights</span>
+             <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span>
+         </div>
+         <div id="china" class="flight-optio">
+             <p>Flight New York - London (NYC - LHR) - $450+</p>
+             <p>Flight Miami - London (MIA - LHR) - $470+</p>
+             <p>Flight Boston - London (BOS - LHR) - $460+</p>
+         </div>
+       </div>
+       
+         </div>
+       </section>
+       
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">WingIt</a>
+          </div>
+          <p>
+            Explore the world with ease and excitement through our comprehensive
+            travel platform. Your journey begins here, where seamless planning
+            meets unforgettable experiences.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Cruise</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +20 1014229688
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> info@Wingit
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> Qina, Egypt
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Inite5. All rights reserved.
+      </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--=============== SWIPER JS ===============-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+   </body>
+</html>
